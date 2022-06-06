@@ -51,7 +51,7 @@ const projects = [
         <div
           v-for="(project, index) in projects"
           :key="index"
-          class="flex flex-col justify-center items-center"
+          class="flex flex-col justify-center items-center col-span-3 md:col-span-1"
         >
           <img
             class="w-[600px] h-full object-fill my-2"
