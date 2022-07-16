@@ -6,9 +6,10 @@ import {
   RouteRecordRaw,
   RouterOptions,
 } from "vue-router";
-import Homepage from "../components/Homepage.vue";
+import Homepage from "../pages/Homepage.vue";
+import About from "../pages/About.vue";
 
-const About = { template: "<div>About</div>" };
+// const About = { template: "<div>About</div>" };
 
 // 2. Define some routes
 // Each route should map to a component.

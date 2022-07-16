@@ -1,0 +1,88 @@
+/* fade */
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
+}
+
+/* fast-fade */
+.fast-fade-enter-active,
+.fast-fade-leave-active {
+    transition: opacity 0.2s ease-in-out;
+}
+
+.fast-fade-enter-from,
+.fast-fade-leave-to {
+    opacity: 0;
+}
+
+/* slide down */
+.slide-down-enter-active,
+.slide-down-leave-active {
+    @apply transition-all transform duration-500;
+}
+
+.slide-down-enter-from {
+    opacity: 0;
+    margin-top: -2%;
+    /* margin-bottom: 10%; */
+    /* @apply -translate-y-1/2; */
+}
+.slide-down-enter-to {
+    opacity: 1;
+    margin-top: 0;
+    /* margin-bottom: 0; */
+    /* @apply translate-y-0; */
+}
+.slide-down-leave-to {
+    opacity: 0;
+    margin-top: -2%;
+}
+
+/* slide left */
+.slide-left-enter-active,
+.slide-left-leave-active {
+    transition: all 0.5s ease;
+}
+
+.slide-left-enter-from,
+.slide-left-leave-to {
+    opacity: 0;
+    transform: translateX(20px);
+}
+
+/* slide */
+.slide-enter-active,
+.slide-leave-active {
+    transition: all 0.5s ease;
+}
+
+.slide-enter-from,
+.slide-leave-to {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+/* 骨架屏加载动画 */
+.bg-gray-scan {
+    background: linear-gradient(
+            100deg,
+            rgba(255, 255, 255, 0) 40%,
+            rgba(255, 255, 255, 0.5) 50%,
+            rgba(255, 255, 255, 0) 60%
+        )
+        rgb(229 231 235);
+    background-size: 200% 100%;
+    background-position-x: 180%;
+    animation: 1s loading ease-in-out infinite;
+}
+
+@keyframes loading {
+    to {
+        background-position-x: -20%;
+    }
+}
