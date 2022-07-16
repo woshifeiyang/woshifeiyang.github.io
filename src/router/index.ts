@@ -8,6 +8,7 @@ import {
 } from "vue-router";
 import Homepage from "../pages/Homepage.vue";
 import About from "../pages/About.vue";
+import SocialSpaceVue from "../pages/SocialSpace.vue";
 
 // const About = { template: "<div>About</div>" };
 
@@ -17,6 +18,7 @@ import About from "../pages/About.vue";
 const routes = [
   { path: "/", component: Homepage },
   { path: "/about", component: About },
+  { path: "/project/social_space", component: SocialSpaceVue },
 ];
 
 // 3. Create the router instance and pass the `routes` option

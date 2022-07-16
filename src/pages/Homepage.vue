@@ -5,7 +5,7 @@ const projects = [
     name: "Social Space",
     type: "Group Project",
     imageUrl: "/images/Social Space.png",
-    link: "",
+    link: "/project/social_space",
   },
   {
     name: "Biowatch",
