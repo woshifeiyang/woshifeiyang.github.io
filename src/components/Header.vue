@@ -17,7 +17,7 @@ const navbarItems = [
 </script>
 
 <template>
-  <nav class="bg-emerald-900 sticky top-0 z-50">
+  <nav class="sticky top-0 z-50 bg-main">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
         <div class="flex-shrink-0">

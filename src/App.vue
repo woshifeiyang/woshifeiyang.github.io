@@ -8,7 +8,9 @@ import Footer from "./components/Footer.vue";
 
 <template>
   <Header></Header>
-  <RouterView style="min-height: calc(100vh - 160px)"></RouterView>
+  <Transition name="fade" mode="out-in">
+    <RouterView style="min-height: calc(100vh - 160px)"></RouterView>
+  </Transition>
   <Footer></Footer>
 </template>
 

@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import Section from "../components/Section.vue";
-import "vue3-carousel/dist/carousel.css";
 
 const items = [
   {
@@ -35,17 +34,17 @@ const images = [
 <template>
   <Section>
     <h1 >Social Space</h1>
-    <p v-for="item in items">
+    <p v-for="item in items" class="pt-1">
       <b>{{ item.title }}</b>
       {{ item.content }}
     </p>
 
-    <p class="my-8">
+    <p class="my-8 pt-4">
       我们团队试图让玩家思考如何在 COVID-19
       疫情流行期间与周围的人保持适当的社交距离。
       游戏鼓励玩家学习如何在与他人保持密切关系的同时保持健康的人际关系。
     </p>
-    <a href="">
+    <a href="https://johnventers.itch.io/social-space">
       <span class="bg-emerald-900 text-white px-4 py-2 mb-4">下载</span>
     </a>
   </Section>
