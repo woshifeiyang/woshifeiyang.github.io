@@ -33,7 +33,7 @@ const images = [
 
 <template>
   <Section>
-    <h1 >Social Space</h1>
+    <h1>Social Space</h1>
     <p v-for="item in items" class="pt-1">
       <b>{{ item.title }}</b>
       {{ item.content }}
@@ -49,9 +49,15 @@ const images = [
     </a>
   </Section>
   <Section style="background-color: rgb(251, 249, 235)">
-    <video
-      src="https://video.wixstatic.com/video/bf5b6d_4281d4e861f84e3d94b007f0e5536252/1080p/mp4/file.mp4"
-    ></video>
+    <iframe
+      src="//player.bilibili.com/player.html?aid=643566784&bvid=BV1rY4y1L7Hc&cid=776056706&page=1"
+      scrolling="no"
+      border="0"
+      frameborder="no"
+      framespacing="0"
+      allowfullscreen="true"
+    >
+    </iframe>
   </Section>
   <Section>
     <p>
@@ -73,9 +79,15 @@ const images = [
       完成的请求会变成灰色，提醒玩家分支任务已经完成。
     </p>
 
-    <video
-      src="https://video.wixstatic.com/video/bf5b6d_1c22c24369d248f3a2bc69d43e9a70ac/1080p/mp4/file.mp4"
-    ></video>
+    <iframe
+      src="//player.bilibili.com/player.html?aid=728525870&bvid=BV1pS4y177ZB&cid=776091558&page=1"
+      scrolling="no"
+      border="0"
+      frameborder="no"
+      framespacing="0"
+      allowfullscreen="true"
+    >
+    </iframe>
   </Section>
   <Section>
     <h2>数据保存和加载</h2>

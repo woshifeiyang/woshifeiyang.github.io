@@ -23,8 +23,9 @@
   @apply font-bold;
 }
 
-.section video {
-  max-width: 800px;
+.section iframe, .section video {
+  width: 800px;
+  height: 500px;
   @apply mt-10;
 }
 </style>
