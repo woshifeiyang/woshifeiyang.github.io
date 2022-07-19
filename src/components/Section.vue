@@ -23,7 +23,7 @@
   @apply font-bold;
 }
 
-.section iframe, .section video {
+.section iframe, .section video, .section .gif {
   width: 800px;
   height: 500px;
   @apply mt-10;

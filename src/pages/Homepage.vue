@@ -11,7 +11,7 @@ const projects = [
     name: "Biowatch",
     type: "Group Project",
     imageUrl: "/images/biowatch.webp",
-    link: "",
+    link: "/project/bio_watch",
   },
   {
     name: "Parkour Game",

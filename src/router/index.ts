@@ -9,6 +9,7 @@ import {
 import Homepage from "../pages/Homepage.vue";
 import About from "../pages/About.vue";
 import SocialSpaceVue from "../pages/SocialSpace.vue";
+import BioWatchVue from "../pages/BioWatch.vue";
 
 // const About = { template: "<div>About</div>" };
 
@@ -19,6 +20,7 @@ const routes = [
   { path: "/", component: Homepage },
   { path: "/about", component: About },
   { path: "/project/social_space", component: SocialSpaceVue },
+  { path: "/project/bio_watch", component: BioWatchVue },
 ];
 
 // 3. Create the router instance and pass the `routes` option

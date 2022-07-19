@@ -94,16 +94,20 @@ const images = [
     <p>
       有许多数据需要在关卡切换时进行保存或者加载，例如玩家和NPC在前一天的幸福值和风险值需要被保存并根据玩家的选择进行不同的计算后在新的一天中被加载
     </p>
-    <video
-      src="https://video.wixstatic.com/video/bf5b6d_d5b341a832444168b693a062d04eef6a/1080p/mp4/file.mp4"
-    ></video>
+    <img class="gif" src="/images/save.gif" />
   </Section>
   <Section class="text-white" style="background-color: rgb(101, 91, 20)">
     <h2>NPC交互</h2>
     <p>通过使用NavMesh组件，NPC在地图上能够以我们自由规划的路径行走</p>
-    <video
-      src="https://video.wixstatic.com/video/bf5b6d_fea4bb082b5f415db3ebb746b6ad677d/720p/mp4/file.mp4"
-    ></video>
+    <iframe
+      src="//player.bilibili.com/player.html?aid=301010876&bvid=BV1NF411K7XR&cid=777349511&page=1"
+      scrolling="no"
+      border="0"
+      frameborder="no"
+      framespacing="0"
+      allowfullscreen="true"
+    >
+    </iframe>
     <p>
       在可交互NPC的设计上，我将思路放在了如何让NPC与其他系统或者元素共同合作。我们希望让NPC和玩家对话过程更加生动有趣，于是我们决定让NPC在对话过程中会弹出有趣的聊天气泡
     </p>
